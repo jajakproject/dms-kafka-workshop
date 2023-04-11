@@ -211,7 +211,8 @@ change line 147:
   "BeforeImageSettings": null,
   "ControlTablesSettings": {
     "historyTimeslotInMinutes": 5,
-    "HistoryTimeslotInMinutes": 5,...
+    "HistoryTimeslotInMinutes": 5,
+    ...
 ```
 To this:
 ```JSON
@@ -222,7 +223,8 @@ To this:
 	},
   "ControlTablesSettings": {
     "historyTimeslotInMinutes": 5,
-    "HistoryTimeslotInMinutes": 5,...
+    "HistoryTimeslotInMinutes": 5,
+    ...
 ```
 2. Again, try to run some updates
 ```SQL
